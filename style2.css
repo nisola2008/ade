@@ -14,10 +14,10 @@ body {
     }
     .intro h1 {
         color: white;
-        font-size: 18px;
-        font-weight: 100;
+        font-size: 30px;
+        font-weight: bold;
         font-family: sans-serif;
-        margin: 18px;
+        margin: 10px;
     }
     .money h1 {
         font-size: 38px;
