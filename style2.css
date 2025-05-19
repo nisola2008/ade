@@ -105,9 +105,6 @@
     .custom-list li::after {
         margin: 10px;
     }
-    .custom-list li h3 {
-        
-    }
     .signbtn {
         background-color: blue;
         text-align: center;
