@@ -432,6 +432,9 @@ body {
     line-height: 1.6;
     margin-left: 30px;
 }
+.cta-txt2 {
+    display: none;
+}
 .input-rap {
     position: relative;
     margin: 10px;
