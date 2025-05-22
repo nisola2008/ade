@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
     .navbar {
-        background-color: rgb(10, 10, 172);
+        background-color: rgb(39, 39, 240);
     }
     .navbar ul, a {
         display: none;
@@ -13,15 +13,17 @@
         margin: 10px;
     }
     .money h1 {
-        font-size: 38px;
+        font-size: 40px;
         color: #061a30;
         margin-top: 100px;
         margin-left: 10px;
         
     }
     .money p {
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 10px;
+        width: 600px;
+        height: auto;
     }
     .money input {
         display: none;
@@ -34,11 +36,16 @@
     }
     .btn1 {
         margin-bottom: 30px;
-        background-color: blue;
+        background-color: rgb(39, 39, 240);
         border-radius: 5px;
-        padding: 10px;
-        font-size: 12px;
-        width: 120px;
+        padding: 8px;
+        font-size: 13px;
+        width: 140px;
+         margin: 10px;
+        font-weight: 100;
+        margin-top: -30px;
+        
+       
     }
     video {
         width: 100%;
@@ -49,6 +56,7 @@
     }
     .section {
         display: block;
+        margin: 10px;
     }
     .sect h1 {
       font-size: 30px;
@@ -62,11 +70,11 @@
         width: 270px;
         line-height: 1.3;
         color: #061a30;
-        font-weight: 500;
+        font-weight: 600;
         
     }
     .btn2 {
-        background-color: blue;
+        background-color: rgb(39, 39, 240);
         font-size: 13px;
         width: 180px;
     }
@@ -78,10 +86,14 @@
         width: 100%;
     }
     .name h1 {
-        font-size: 36px;
-        width: 300px;
+        font-size: 35px;
         color: #061a30;
         margin-bottom: -45px;
+        font-weight: bold;
+        
+    }
+    .really {
+        display: none;
     }
     .diagram p {
         color: blue;
@@ -104,21 +116,47 @@
     }
     .custom-list li::before {
         color: blue;
-        margin: 10px;
+        margin: 20px;
         position: absolute;
-        top: -8px;
+        top: -18px;
+        
         
     }
     .custom-list li::after {
+        margin: 20px;
+
+    }
+    .custom-list li {
         margin: 10px;
+         height: 130px;
+        color: #05203e;
+        
+    }
+    .custom-list li h3, p {
+        font-weight: lighter;
+        margin: 15px;
+        align-content: center;
+        align-items: center;
+    }
+    .custom-list li h3 {
+        font-weight: 700;
+    }
+    .custom-list li p {
+        font-size: 15px;
     }
     .signbtn {
-        background-color: blue;
+        background-color: rgb(39, 39, 240);
         text-align: center;
         margin: auto;
         width: 130px;
         margin-left: 50px;
-        font-size: 10px;
+        font-size: 12px;
+        font-weight: 600;
+        height: 30px;
+        padding: 10px;
+    }
+    .signbtn:hover {
+        opacity: 0.7;
     }
     .rewards {
         display: block;
@@ -127,11 +165,12 @@
         margin-top: 140px;
     }
     .rewards h1 {
-        font-size: 30px;
+        font-size: 32px;
     }
     .rewards p {
         margin-top: 60px;
         font-size: 20px;
+        color: grey;
     }
     .rewards .opp {
         font-size: 40px;
@@ -157,11 +196,17 @@
         
     }
     .today1 p {
-        color: gray;
+        color: grey;
     }
     .today1 h1 {
-        color: gray;
-        font-size: 40px;
+        color: grey;
+        font-size: 37px;
+        font-weight: lighter;
+    }
+    .today1 .calcu {
+        line-height: 1.6;
+        font-weight: 600;
+        font-size: 20px;
     }
     .today .www {
         font-size: 15px !important;
@@ -173,27 +218,36 @@
     }
     .keep {
        display: block;
-       background-color: blue;
+       background-color: rgb(39, 39, 240);
     }
     .keep1 h1 {
         margin: 10px;
-        display: block;
-        font-size: 18px;
-        font-weight: 800 !important;
+        font-size: 24px;
+        display: flex;
+        flex-wrap: wrap;
+
         
+    }
+    .break {
+        display: none;
+    }
+    .break2 {
+        display: none;
     }
     .keep1 p {
         margin: 10px;
-        font-size: 10px;
+        font-size: 15px;
         width: auto;
         font-weight: 500;
     }
     .keep1 a {
         display: block;
+        filter: blur(0.4px);
+        color: lightyellow;
     }
     .top {
         display: block;
-        background-color: blue;
+        background-color: rgb(39, 39, 240);
         padding: auto;
         margin: auto;
     }
@@ -201,28 +255,29 @@
         font-size: 15px;
     }
     .top1 p {
-        font-size: 14px;
-        font-weight: 100;
+        font-size: 17px;
+        font-weight: 500;
         line-height: 1.5;
         justify-content: center;
         width: 270px;
+        margin: 0px;
         
     }
     .top2 h1 {
         font-size: 15px;
     }
     .top2 p {
-        font-size: 14px;
-        font-weight: 100;
+        font-size: 17px;
+        font-weight: 500;
         line-height: 1.5;
         justify-content: center;
         width: 270px;
-        
+        margin: 0;
     }
     
     .regular {
         display: block;
-        background-color: blue;
+        background-color: rgb(39, 39, 240);
         padding: 10px;
         margin: auto;
         padding-bottom: 40px;
@@ -232,23 +287,30 @@
     
     }
     .reg1 p {
-        font-size: 13px;
-        font-weight: 100;
+        font-size: 17px;
+        font-weight: 500;
         line-height: 1.5;
         justify-content: center;
         width: 270px;
-        
+        margin: 0;
     }
     .reg2 h1 {
         font-size: 15px;
         width: 300px;
     }
     .reg2 p {
-        font-size: 14px;
-        font-weight: 100;
+        font-size: 17px;
+        font-weight: 500;
         line-height: 1.5;
         justify-content: center;
         width: 270px;
+        margin: 0;
+    }
+    .why1 p, h4 {
+        font-weight: 800;
+    }
+    .why1 h4 {
+        font-weight: 700 !important;
     }
     .review {
         display: block;
