@@ -238,7 +238,8 @@
     }
     .keep1 h1 {
         margin: 10px;
-        font-size: 24px;
+        font-size: 31px;
+        padding-top: 50px;
         display: flex;
         flex-wrap: wrap;
 
@@ -252,7 +253,7 @@
     }
     .keep1 p {
         margin: 10px;
-        font-size: 15px;
+        font-size: 19px;
         width: auto;
         font-weight: 500;
     }
@@ -260,7 +261,8 @@
         display: block;
         filter: blur(0.4px);
         color: lightyellow;
-    }
+        font-size: 15px !important;
+}
     .top {
         display: block;
         background-color: rgb(39, 39, 240);
@@ -268,26 +270,27 @@
         margin: auto;
     }
     .top1 h1 {
-        font-size: 14px;
+        font-size: 25px;
+    }
+    .square {
+        font-size: 40px;
     }
     .top1 p {
-        font-size: 17px;
+        font-size: 22px;
         font-weight: 500;
         line-height: 1.5;
         justify-content: center;
-        width: 270px;
-        margin: 0px;
-        
+        width: 300px;
     }
     .top2 h1 {
-        font-size: 14px;
+        font-size: 25px;
     }
     .top2 p {
-        font-size: 17px;
+        font-size: 22px;
         font-weight: 500;
         line-height: 1.5;
         justify-content: center;
-        width: 270px;
+        width: 300px;
         margin: 0;
     }
     
@@ -299,33 +302,38 @@
         padding-bottom: 40px;
     }
     .reg1 h1 {
-        font-size: 14px;
+        font-size: 25px;
+        width: 300px;
+    
     }
     .reg1 p {
-        font-size: 17px;
+        font-size: 22px;
         font-weight: 500;
         line-height: 1.5;
         justify-content: center;
-        width: 270px;
+        width: 300px;
         margin: 0;
     }
     .reg2 h1 {
-        font-size: 14px;
+        font-size: 25px;
         width: 300px;
     }
     .reg2 p {
-        font-size: 17px;
+        font-size: 22px;
         font-weight: 500;
         line-height: 1.5;
         justify-content: center;
-        width: 270px;
+        width: 300px;
         margin: 0;
     }
     .why1 p, h4 {
-        font-weight: 800;
+        font-weight: 700;
     }
     .why1 h4 {
         font-weight: 700 !important;
+    }
+    .new {
+        display: block;
     }
     .review {
         display: block;
