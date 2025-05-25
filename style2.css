@@ -1,7 +1,4 @@
 @media (max-width: 600px) {
-    * {
-       outline: 1px solid red;
-    }
     body {
        margin: 0; 
         
