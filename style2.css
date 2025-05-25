@@ -1,4 +1,10 @@
 @media (max-width: 600px) {
+    body {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
     .navbar {
         background-color: rgb(39, 39, 240);
     }
@@ -17,13 +23,13 @@
         color: #061a30;
         margin-top: 100px;
         margin-left: 10px;
-        width: 600px;
+        width: auto;
         
     }
     .money p {
         font-size: 24px;
         margin-left: 10px;
-        width: 600px;
+        width: auto;
         height: auto;
     }
     .money input {
@@ -44,7 +50,7 @@
         width: 195px;
         height: 50px;
          margin: 10px;
-        font-weight: 600;
+        font-weight: 100;
         margin-top: 20px;
         
        
@@ -77,9 +83,9 @@
     }
     .btn2 {
         background-color: rgb(39, 39, 240);
-        font-size: 18px;
-        width: 220px;
-        height: 55px;
+        font-size: 15px;
+        width: 100%;
+        height: 50px;
         font-weight: 500;
     }
     .btn2:hover {
@@ -161,7 +167,7 @@
     .signbtn {
         background-color: rgb(39, 39, 240);
         margin: auto;
-        width: 180px;
+        width: auto;
         margin-left: 100px;
         font-size: 20px;
         font-weight: 600;
@@ -207,7 +213,7 @@
         display: block;
     }
     .wait {
-        width: 110%;
+        width: 100%;
         
     }
     .today1 p {
@@ -280,7 +286,7 @@
         font-weight: 500;
         line-height: 1.5;
         justify-content: center;
-        width: 300px;
+        width: auto;
     }
     .top2 h1 {
         font-size: 25px;
@@ -290,7 +296,7 @@
         font-weight: 500;
         line-height: 1.5;
         justify-content: center;
-        width: 300px;
+        width: auto;
         margin: 0;
     }
     
@@ -303,7 +309,7 @@
     }
     .reg1 h1 {
         font-size: 25px;
-        width: 300px;
+        width: 100%;
     
     }
     .reg1 p {
@@ -311,19 +317,16 @@
         font-weight: 500;
         line-height: 1.5;
         justify-content: center;
-        width: 300px;
         margin: 0;
     }
     .reg2 h1 {
         font-size: 25px;
-        width: 300px;
     }
     .reg2 p {
         font-size: 22px;
         font-weight: 500;
         line-height: 1.5;
         justify-content: center;
-        width: 300px;
         margin: 0;
     }
     .why1 p, h4 {
@@ -339,7 +342,6 @@
         display: block;
     }
     .review-card {
-        width: 280px;
         height: auto;
         align-items: center;
         margin: 10px;
