@@ -1,9 +1,9 @@
 @media (max-width: 600px) {
     * {
-        
+       outline: 1px solid red;
     }
     body {
-        margin: 0;
+       margin: 0; 
         
     }
     .navbar {
@@ -21,7 +21,7 @@
         margin: 10px;
     }
     .money h1 {
-        font-size: 50px;
+        font-size: 40px;
         color: #061a30;
         margin-top: 100px;
         margin-left: 10px;
@@ -48,7 +48,7 @@
         background-color: rgb(39, 39, 240);
         border-radius: 5px;
         padding: 8px;
-        font-size: 25px;
+        font-size: 30px;
         width: 220px;
         height: 50px;
          margin: 10px;
@@ -344,13 +344,13 @@
     }
     .review {
         display: block;
-        width: 90%;
+        width: 100%;
         height: auto;
         
         
     }
     .review-card {
-        width: 100%;
+        width: 90%;
         height: auto;
         align-items: center;
         margin: 10px auto;
@@ -410,6 +410,7 @@
         padding: 5px;
         font-size: 25px !important;
         font-weight: 700;
+        width: 90%;
     }
     .input-rap {
         display: block;
@@ -442,7 +443,8 @@
         margin-bottom: 40px;
     }
     .company h2 {
-     font-size: 18px !important;
+     font-size: 30px !important;
+     margin: auto;
     }
     .company a {
         display: flex !important;
