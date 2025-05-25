@@ -344,15 +344,15 @@
     }
     .review {
         display: block;
-        width: 330px;
+        width: 90%;
         height: auto;
+        margin: 10px;
         
         
     }
     .review-card {
         width: 90%;
         height: auto;
-        align-items: center;
         margin: 10px auto;
         position: relative;
         
