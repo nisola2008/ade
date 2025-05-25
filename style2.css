@@ -75,7 +75,7 @@
     }
     .sect p {
         font-size: 30px;
-        width: 370px;
+        width: auto;
         line-height: 1.3;
         color: #061a30;
         font-weight: 600;
