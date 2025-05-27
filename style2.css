@@ -355,16 +355,14 @@
     }
     .review-card {
         width: 90%;
-        height: 55vh;
+        height: auto;
         margin: 40px auto;
         position: relative;
         background-color: white;
         box-sizing: border-box;
         box-shadow: 5px 5px 10px whitesmoke;
     }
-    .review-card:nth-child(2) {
-        height: 63vh;
-    }
+
     .review-card h1 {
         padding: 20px;
         margin-top: 10px;
@@ -422,7 +420,7 @@
         padding: 5px;
         font-size: 30px !important;
         font-weight: 700;
-        width: 300px;
+        width: auto;
     }
     .input-rap {
         display: block;
@@ -453,19 +451,23 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 40px;
+        padding: 10px;
+        width: auto;
 
     }
     .company h2 {
-     font-size: 25px !important;
-     margin: auto;
+     font-size: 20px !important;
+     padding-right: 30px;
+
     }
     .company a {
-        display: flex !important;
-        flex-wrap: wrap !important;
-        font-size: 10px !important;
-        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 13px !important;
         color: grey;
-        font-weight: 500;
+        font-weight: 200;
+        width: auto;
+        
     
     }
     .social-media {
@@ -485,6 +487,7 @@
     }
     .footer {
         background-color: whitesmoke;
+        margin-top: -80px !important;
     }
     .footer-top {
         display: flex;
@@ -503,16 +506,18 @@
         margin-bottom: 20px;
     }
     .sec-license img {
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
     }
     .sec-license p {
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 900;
     }
     .ooo {
         color: grey;
         font-weight: 100;
+        font-size: 15px !important;
+        margin-left: -0px !important;
     }
     .footer-address p {
         font-size: 16.5px;
