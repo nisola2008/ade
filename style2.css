@@ -18,11 +18,12 @@
         margin: 10px;
     }
     .money h1 {
-        font-size: 50px;
+        font-size:48px;
         color: #061a30;
         margin-top: 100px;
         margin-left: 10px;
-        
+        width: auto;
+        font-weight: 700;
         
     }
     .money p {
